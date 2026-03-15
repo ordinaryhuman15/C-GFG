@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Take input
+    // Add 10 and Print
+    int n;
+    cin >> n;
+    n = n + 10;
+    cout << n << " ";
+    return 0;
+}
