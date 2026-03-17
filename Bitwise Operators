@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+
+    // perform bitwise operations here
+    int d , e , f , g;
+    d = a ^ a;
+    e = c^ b;
+    f = a & b;
+    g = c|(a^a);
+    e = ~e;
+    
+    cout << d << " " << e << " " << f << " " << g ;
+    return 0;
+}
