@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+      int p,q,r,s,t,x,y;
+      cin >> x >> y;
+
+      p = x+y;
+      q = x-y;
+      r = x*y;
+      s = x/y;
+      t = x%y;
+
+      cout << p << " " << q << " " << r << " " << s << " " << t << endl;
+}
