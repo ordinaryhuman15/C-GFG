@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double d;
+    cin >> d;
+    // Typecast and Print
+    d = (int)d;
+    cout << d << " ";
+    return 0;
+}
